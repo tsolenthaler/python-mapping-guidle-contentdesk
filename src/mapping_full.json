@@ -1,0 +1,48 @@
+{
+    "name": "Guidle Contentdesk Translator / Mapping",
+    "description": "This is a translator / mapping for the Guidle Contentdesk",
+    "source": "Guidle.com",
+    "target": "Contentdesk.io",
+    "properties":[
+        {
+            "label": "name",
+            "type": "string",
+            "source": "title",
+            "language": "en,de",
+            "target": "name",
+            "locale": true,
+            "scope": true
+        },
+        {
+            "label": "description",
+            "type": "string",
+            "source": "longDescription",
+            "language": "en,de",
+            "target": "description",
+            "locale": true,
+            "scope": true
+        },
+        {
+            "label": "short_description",
+            "type": "string",
+            "source": "shortDescription",
+            "language": "en,de",
+            "target": "short_description", 
+            "locale": true,
+            "scope": true
+        },
+        {
+            "label": "image",
+            "type": "file",
+            "source": "images.0.url",
+            "target": "image",
+            "locale": false,
+            "scope": false
+            
+        }
+        
+
+    ]
+        
+
+}

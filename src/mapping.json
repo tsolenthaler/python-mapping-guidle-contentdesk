@@ -1,0 +1,34 @@
+{
+    "guidle_event_id": {
+        "source": "id",
+        "target": "guidle_event_id"
+    },
+    "name":{
+        "source": "offerDetail.0.title",
+        "target": "name"
+    },
+    "shortDescription":{
+        "source": "offerDetail.0.shortDescription",
+        "target": "disambiguatingDescription"
+    },
+    "description":{
+        "source": "offerDetail.0.longDescription",
+        "target": "description"
+    },
+    "image":{
+        "source": "offerDetail.0.images.0.url",
+        "target": "image"
+    },
+    "url":{
+        "source": "offerDetail.0.homepage",
+        "target": "url"
+    },
+    "ticketingUrl":{
+        "source": "ticketingUrl",
+        "target": "action_button_url"
+    },
+    "priceInformation":{
+        "source": "offerDetail.0.priceInformation",
+        "target": "offers"
+    }
+}
